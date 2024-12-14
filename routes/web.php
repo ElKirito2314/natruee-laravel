@@ -24,3 +24,11 @@ Route::get('/contato', [\App\Http\Controllers\ContatoController::class, 'contato
 // Rota da página de podcast
 Route::get('/podcast', [\App\Http\Controllers\PodcastController::class, 'podcast'])
     ->name('site.podcast');
+
+// Rota da página de artigos
+Route::get('/artigos', [\App\Http\Controllers\ArtigoController::class, 'artigo'])
+    ->name('site.artigo');
+
+// Rota da página de termos
+Route::get('/termos', [\App\Http\Controllers\TermoController::class, 'termo'])
+    ->name('site.termo');

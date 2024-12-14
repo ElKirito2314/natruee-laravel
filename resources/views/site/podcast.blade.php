@@ -13,26 +13,37 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="{{ asset('media/podcast-1.png') }}" class="d-block w-100" alt="...">
+        <video class="d-block w-100" controls>
+          <source src="{{ asset('media/podcast1.mp4') }}" type="video/mp4">
+          Seu navegador não suporta a tag de vídeo.
+        </video>
         <div class="carousel-caption d-none d-md-block">
           <h5>Boas praticas de gestão e reciclagem de equipamentos de informática</h5>
           <p>A gestão e reciclagem adequadas de equipamentos de informática são essenciais para a preservação do meio ambiente e a sustentabilidade</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('media/podcast-2.png') }}" class="d-block w-100" alt="...">
+        <video class="d-block w-100" controls>
+          <source src="{{ asset('media/podcast2.mp4') }}" type="video/mp4">
+          Seu navegador não suporta a tag de vídeo.
+        </video>
         <div class="carousel-caption d-none d-md-block">
-          <h5>Descarte inadequado do <i>Lixo Eletrônico</i></h5>
+          <h5>Conexão Sustentável</h5>
           <p>Como o descarte inadequado de lixo eletrônico contamina o meio ambiente e desperdiça recursos valiosos</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="{{ asset('media/podcast-3.png') }}" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Impactos socias e ambientais dos resíduos eletrônicos</h5>
-          <p>Os resíduos eletrônicos causam graves impactos sociais e ambientais, contaminando o meio ambiente e prejudicando a saúde humana</p>
+        <div class="d-flex justify-content-center">
+            <video class="d-block" style="max-width: 100%;" controls>
+                <source src="{{ asset('media/podcast3.mp4') }}" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
         </div>
-      </div>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Vozes do Meio Ambiente</h5>
+            <p>Neste podcast, exploramos o conceito de racismo ambiental e suas implicações na sociedade contemporânea</p>
+        </div>
+    </div>    
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
