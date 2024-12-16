@@ -11,12 +11,12 @@
     height: 650px;
 }
 
-.carousel-inner {
+/* .carousel-inner { */
     /* width: fit-content; */
     /* height: fit-content;  */
     /* width: 660px; */
     /* height: 600px; */
-}
+/* } */
 
 /* :active {
     transition: all 0.4s ease;
@@ -131,4 +131,70 @@
 .accordion-button:not(.collapsed) { 
     background-color: #343a40; 
     color: white;
+}
+
+.logo-site img {
+    width: 6vh;
+    height: 6vh;
+}
+
+.titulo-pagina {
+    width: 100%;
+    color: white;
+    font-family: "Lilita One", sans-serif;
+    background-color: #343a40;
+    padding: 40px 0px 60px 0px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+
+.titulo-pagina h1 {
+    font-size: 3.35em;
+    line-height: 1em;   
+}
+
+.row-sobrenos {
+    flex-wrap: unset;
+}
+
+.card { 
+    margin-right: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+} 
+
+.card-sobrenos{
+    padding: 10px;
+    width: 400px;
+}
+
+.card:hover { 
+    transform: scale(1.05); 
+} 
+
+.card-img-top { 
+    height: 400px;
+    object-fit: cover; 
+}
+
+
+input, select , select{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.accordion-body strong { 
+    margin-bottom: 10px; 
+    font-size: 1.1rem; 
+} 
+
+.accordion-body { 
+    line-height: 1.6; 
+    text-align: justify;
 }

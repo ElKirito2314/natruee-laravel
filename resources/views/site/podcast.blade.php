@@ -39,7 +39,7 @@
                 Seu navegador não suporta a tag de vídeo.
             </video>
         </div>
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block" style="bottom: 60px;">
             <h5>Vozes do Meio Ambiente</h5>
             <p>Neste podcast, exploramos o conceito de racismo ambiental e suas implicações na sociedade contemporânea</p>
         </div>

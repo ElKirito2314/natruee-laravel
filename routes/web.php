@@ -20,6 +20,12 @@ Route::get('/', [\App\Http\Controllers\PrincipalController::class, 'principal'])
 // Rota da página de contato
 Route::get('/contato', [\App\Http\Controllers\ContatoController::class, 'contato'])
     ->name('site.contato');
+    Route::post('/contato', [\App\Http\Controllers\ContatoController::class, 'salvar'])
+    ->name('site.contato');
+
+// Rota da página de sobre-nós
+Route::get('/sobre-nos', [\App\Http\Controllers\SobrenosController::class, 'sobrenos'])
+    ->name('site.sobre-nos');
 
 // Rota da página de podcast
 Route::get('/podcast', [\App\Http\Controllers\PodcastController::class, 'podcast'])
